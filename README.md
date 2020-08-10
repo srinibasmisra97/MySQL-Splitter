@@ -43,4 +43,4 @@ MODE : Set the mode of operation. Two possible values -
             SINGLE : Will search for specific table or database and generate its sql file.
                 INPUT_TABLE_NAME : Will extract the table from the sql file.
                 INPUT_DB_NAME : Will extract the database from the sql file.
-``
+```
