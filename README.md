@@ -1,7 +1,8 @@
-MySQL Splitter
+# MySQL Splitter
 
-Execute using bash.
+**Execute using bash.**
 
+```
 bash splitter.sh
 OPTIONS:
 --source|-S: mysqldump file to process. has to be a .sql file. no compression allowed.
@@ -20,11 +21,13 @@ OPTIONS:
 --config|-C: Pass the path to config file. Run bash splitter.sh --config-format for more information.
 --config-format: To see the format of the config file.
 --help|-H: help.
+```
 
-Config file format:
+## Config file format:
 
-File format supported: txt or conf.
+**File format supported: txt or conf.**
 
+```
 SOURCE_PATH : Pass the source sql file path.
 OUTPUT_PATH : Pass the output folder path.
 MODE : Set the mode of operation. Two possible values -
@@ -40,3 +43,4 @@ MODE : Set the mode of operation. Two possible values -
             SINGLE : Will search for specific table or database and generate its sql file.
                 INPUT_TABLE_NAME : Will extract the table from the sql file.
                 INPUT_DB_NAME : Will extract the database from the sql file.
+``
